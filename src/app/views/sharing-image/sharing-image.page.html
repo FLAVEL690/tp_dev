@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>sharingImage</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button color="success"></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button color="primary" (click)="getImage()"> 
+    <ion-icon slot="start" name="camera"></ion-icon>Photo</ion-button>
+    <ion-card *ngFor="let image of list_image">
+
+      <img src={{image}}>
+      <div  class="ion-text-center" fill="clear">
+        <ion-button  slot="start"  (click)="handleShare(image)"> 
+        <ion-icon name="share" color=""></ion-icon> partager</ion-button>
+      </div>
+    </ion-card>
+</ion-content>

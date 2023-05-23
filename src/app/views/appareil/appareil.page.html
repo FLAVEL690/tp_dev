@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title id="title"><strong> INFORMATIONS DE L'APPAREIL </strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        Manufacturer
+      </ion-label>
+      <ion-note slot="end">{{ manufacturer }}</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>Nom de l'appareil</ion-label>
+      <ion-note slot="end">{{ deviceName }}</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>Model de l'appareil</ion-label>
+      <ion-note slot="end">{{ deviceModel }}</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>Version du system</ion-label>
+      <ion-note slot="end">{{ osVersion }}</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        Platforme
+      </ion-label>
+      <ion-note slot="end">{{ platform }}</ion-note>
+    </ion-item>
+
+
+
+   <ion-item>
+    <ion-label>
+      langue du systeme
+    </ion-label>
+    <ion-note slot="end">{{language}}</ion-note>
+  </ion-item>
+
+
+
+     <ion-item>
+      <ion-label>
+       Niveau de batterie
+      </ion-label>
+      <ion-note slot="end">{{ batteryLevel }}%</ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        Etat de la batterie
+      </ion-label>
+      <ion-note slot="end">{{ chargingStatus }}</ion-note>
+    </ion-item>
+  </ion-list>
+
+
+      <ion-item>
+        <ion-label>Mémoire utilisée par l'application</ion-label>
+        <ion-label slot="end">{{ memUsed }} Mo</ion-label>
+      </ion-item>
+      <ion-item>
+      <ion-label>Mémoire totale</ion-label>
+        <ion-label slot="end">{{ realDiskTotal }} Go</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mémoire libre</ion-label>
+        <ion-label slot="end">{{ realDiskFree }} Go</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mémoire occupée</ion-label>
+        <ion-label slot="end">{{ memoireOC }} Go</ion-label>
+      </ion-item>
+    </ion-content>

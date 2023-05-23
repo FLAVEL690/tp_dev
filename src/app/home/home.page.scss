@@ -1,0 +1,87 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+// ion-content {
+//   --background: url('') no-repeat center fixed;
+//   --background-size: cover;
+// }
+// #img{
+//   --background:  no-repeat center fixed;
+//   --background-size: cover;
+// }
+// ion-content{
+//   --background:  url("../../assets/img/lettre_c.png")no-repeat center fixed;
+//   --background-size:cover;
+  
+//   // --background: rgba(168, 144, 5, 0.635);
+// }
+// ion-content  {
+//   background-color: #d7d8da ;
+// }
+#bg{
+  --background-color:white;
+}
+
+
+ion-list  {
+  background-color: #a7121254 ;
+}
+
+ion-list >ion-item  {
+  background-color: #a7121254 ;
+}
+
+ion-item  {
+  background-color: #a7121254 ;
+}
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #020202;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#title{
+  text-align: center;
+}
+#container strong {
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--ion-color-primary-shade);
+}
+#container p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 30px;
+  color: #030303;
+  margin: 0;
+}

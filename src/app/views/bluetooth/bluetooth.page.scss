@@ -1,0 +1,40 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #title{
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    text-align:center;
+  }
+  #b1 {
+    margin-top: 15em;
+  }
+  #b2 {
+    margin-top: 08em;
+  }
+  
+  ion-button {
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.3rem;
+  }
+
+  ion-content {
+    --background: url('../../../assets/img/e_or.jpg') no-repeat center fixed;
+    --background-size: cover;
+  }

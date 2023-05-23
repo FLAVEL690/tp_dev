@@ -1,0 +1,51 @@
+ion-content {
+       --background: url('../../../assets/img/e_or.jpg') no-repeat center fixed;
+       --background-size: cover;
+     }
+
+     .home-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 20px;
+    }
+    #title{
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    ion-button {
+      width: 100%;
+      max-width: 400px;
+      font-size: 1.3rem;
+    }
+
+ ion-content > ion-list >ion-item  {
+    background-color: #a7121254 ;
+ }
+ 
+  ion-list  {
+    color: #a7121254 ;
+ }
+ 
+ ion-list >ion-item  {
+    background-color: #a7121254 ;
+ }
+ 
+ion-item  {
+    background-color: #a7121254 ;
+ }
+ 
